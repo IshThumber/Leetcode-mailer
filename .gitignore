@@ -1,0 +1,84 @@
+# Sensitive Configuration Files
+.env
+credentials.json
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache and Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs and Runtime Files
+*.log
+cron.log
+*.pid
+*.seed
+*.pid.lock
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Backup Files
+*.bak
+*.backup
+*_backup*
+sent_questions_backup_*.txt
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Email Draft Files
+draft_*.html
+test_email_*.html
+
+# API Keys and Tokens (additional safety)
+*api_key*
+*token*
+*secret*
+*credential*
+
+# Test Files
+test_*.py
+*_test.py
+tests/
